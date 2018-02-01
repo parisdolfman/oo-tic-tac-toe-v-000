@@ -97,7 +97,7 @@ end
 
   if won?
     winner = winner
-    puts "Congratulations #{@board[winning[0]]}!"
+    puts "Congratulations #{}!"
   else draw?
    puts "Cat's Game!"
   draw?
