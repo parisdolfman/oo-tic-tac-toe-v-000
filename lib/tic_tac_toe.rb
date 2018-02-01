@@ -94,9 +94,10 @@ end
  until over?
    turn
  end
+ 
   if won?
     winner = winner
-    puts "Congratulations #{winner}!"
+    puts "Congratulations #{@board[winning[0]]}!"
   else draw?
    puts "Cat's Game!"
   draw?
