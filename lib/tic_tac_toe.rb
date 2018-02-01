@@ -84,7 +84,8 @@ end
    full? || won? || draw?
    end
 
-   def winner
+   def initialize(winner)
+     @winner = winner
       if winning = won?
       @board[winning[0]]
     end
@@ -97,7 +98,7 @@ end
 
   if won?
     winner = winner
-    puts "Congratulations #{winner}!"
+    puts "Congratulations #{@winner}!"
   else draw?
    puts "Cat's Game!"
   draw?
