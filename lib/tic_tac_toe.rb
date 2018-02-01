@@ -97,7 +97,7 @@ end
 
   if won?
     winner = winner
-    puts "Congratulations #{}!"
+    puts "Congratulations #{winner}!"
   else draw?
    puts "Cat's Game!"
   draw?
